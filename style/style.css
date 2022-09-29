@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #100720;
+}
+
+.container50 {
+  width: 28%;
+  margin: 80px auto;
+}
+
+.container60 {
+  width: 60%;
+  margin: auto;
+}
+
+.main-box {
+  box-shadow: rgba(255, 194, 60, 0.7) 0px 5px 15px;
+  border-radius: 10px;
+}
+.main-box .main-photo {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.main-box .main-photo img {
+  transition: 0.3s ease-in-out;
+}
+.main-box .main-photo img:hover {
+  transform: scale(1.2);
+}
+.main-box .main-top {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+.main-box .main-top span {
+  font-size: 1.3em;
+  color: #FFC23C;
+}
+.main-box .main-top p {
+  font-size: smaller;
+  padding-top: 7px;
+}
+.main-box .main-links {
+  padding: 15px 0;
+}
+.main-box .main-links .links {
+  display: flex;
+  justify-content: center;
+}
+.main-box .main-links .links .myBtn {
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: none;
+  transition: 0.3s ease-in-out;
+  padding: 15px 25px;
+}
+.main-box .main-links .links .myBtn:hover {
+  transform: scale(1.2);
+  background-color: #31087B;
+}
+.main-box .main-links .links .myBtn:hover a {
+  color: #ffffff;
+}
+.main-box .main-links .links .myBtn:hover i {
+  color: #ffffff;
+}
+.main-box .main-links .links .myBtn a {
+  text-decoration: none;
+  color: #31087B;
+  transition: 0.3s ease-in-out;
+}
+.main-box .main-links .links .myBtn i {
+  color: #31087B;
+  transition: 0.3s ease-in-out;
+}
+.main-box .main-about {
+  text-align: center;
+  padding: 15px 0;
+}
+.main-box .main-about h4 {
+  color: #FFC23C;
+}
+.main-box .main-about span {
+  color: #fff;
+}
+.main-box .main-footer {
+  background-color: #31087B;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  color: #fff;
+}
+.main-box .main-footer span,
+.main-box .main-footer p {
+  font-size: 15px;
+}
+.main-box .main-footer i {
+  font-weight: 100;
+}/*# sourceMappingURL=style.css.map */
